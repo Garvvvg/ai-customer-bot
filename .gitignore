@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+myvenv/
+*.env
+*.venv
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Distribution / package build directories
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Pydantic cache
+.pdm.toml
+pdm.lock
+__pypackages__/
+
+# IDE settings
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# macOS + Windows system files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+*.secret
+*.key
+
+# Logs
+*.log
+logs/
+streamlit/
+
+# Local data + cache
+.cache/
+tmp/
+temp/
+*.tmp
+*.sqlite3
+
+# Flask / Streamlit session data
+instance/
+*.db
+
+# Generated files
+*.json
+*.csv
+*.pkl
